@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/jairojunior/exemplo-beaker-puppet.svg?branch=master)](https://travis-ci.org/jairojunior/exemplo-beaker-puppet)
+
 # Projeto de exemplo para o artigo "Teste de Infraestrutura com Puppet: Parte II"
 
 Este projeto tem como objetivo iniciar com testes utilizando beaker e serverspev com o mínimo de configuração possível.
@@ -16,3 +18,7 @@ bundle install
 ```
 
 Executar: `PUPPET_INSTALL_TYPE=agent rspec spec/acceptance/example_spec.rb`
+
+# Autor
+
+Jairo Junior (junior.jairo1@gmail.com)
