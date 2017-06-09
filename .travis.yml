@@ -5,7 +5,7 @@ language: ruby
 rvm:
   - 2.3.3
 script:
-  - PUPPET_INSTALL_TYPE=agent bundle exec rake beaker
+  - BEAKER_debug=true PUPPET_INSTALL_TYPE=agent bundle exec rake beaker
 env:
   - BEAKER_set=docker/centos-7
   - BEAKER_set=docker/debian-7
