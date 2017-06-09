@@ -13,9 +13,13 @@ describe 'example scenario' do
       expect(apply_manifest(pp, :catch_failures => true).exit_code).to be_zero
     end
 
-    describe service('httpd') do
-      it { should be_enabled }
-      it { should be_running }
+
+    describe package('httpd'), :if => os[:family] == 'RedHat' do
+      it { should be_installed }
+    end
+
+    describe package('apache2'), :if => os[:family] == 'Debian' do
+      it { should be_installed }
     end
 
     describe port(80) do
