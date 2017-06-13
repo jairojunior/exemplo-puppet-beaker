@@ -2,7 +2,7 @@
 
 # Projeto de exemplo para o artigo "Teste de Infraestrutura com Puppet: Parte II"
 
-Este projeto tem como objetivo iniciar com testes utilizando beaker e serverspev com o mínimo de configuração possível.
+Este projeto tem como objetivo iniciar com testes utilizando beaker e serverspec com o mínimo de configuração possível.
 
 Dependências:
 
