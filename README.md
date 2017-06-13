@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/jairojunior/exemplo-beaker-puppet.svg?branch=master)](https://travis-ci.org/jairojunior/exemplo-beaker-puppet)
+[![Build Status](https://travis-ci.org/jairojunior/exemplo-puppet-beaker.svg?branch=master)](https://travis-ci.org/jairojunior/exemplo-puppet-beaker)
 
 # Projeto de exemplo para o artigo "Teste de Infraestrutura com Puppet: Parte II"
 
